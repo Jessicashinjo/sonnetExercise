@@ -22,7 +22,7 @@ var winter = sonnet.replace("winter", "yuletide");
 console.log("replace Winter", winter);
 
 // Replace all occurances of the string "the" with "a large"
-var theUpdate = sonnet.replace(/the/gi, "a large");
+var theUpdate = sonnet.replace(/[T|t]he /g, "a large ");
 console.log("the to large", theUpdate);
 
 // Set the content of the sonnet div with the new string
